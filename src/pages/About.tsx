@@ -5,97 +5,121 @@ const About = () => {
   return (
     <div className="min-h-screen py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Mission Section */}
+        {/* Hero Section */}
         <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="text-center mb-20"
         >
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Mission</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gradient">Welcome to No-Code Club</h1>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            At No-Code Club, we're revolutionizing the way students approach product development. 
-            Our mission is to democratize innovation by making product development accessible to everyone, 
+            Empowering students to transform ideas into reality through no-code solutions. 
+            We're revolutionizing product development by making it accessible to everyone, 
             regardless of their coding background.
           </p>
         </motion.section>
 
-        {/* Core Values */}
+        {/* Stats Section */}
         <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="mb-20"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20"
         >
-          <h2 className="text-3xl font-bold text-center mb-12">Our Core Values</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="glass-card p-6 rounded-lg text-center">
-              <h3 className="text-xl font-semibold mb-4 text-gradient">Innovation First</h3>
-              <p className="text-gray-400">
-                We believe in pushing boundaries and finding creative solutions using no-code tools.
-              </p>
-            </div>
-            <div className="glass-card p-6 rounded-lg text-center">
-              <h3 className="text-xl font-semibold mb-4 text-gradient">Community Driven</h3>
-              <p className="text-gray-400">
-                Our strength lies in our diverse community of builders, creators, and innovators.
-              </p>
-            </div>
-            <div className="glass-card p-6 rounded-lg text-center">
-              <h3 className="text-xl font-semibold mb-4 text-gradient">Continuous Learning</h3>
-              <p className="text-gray-400">
-                We foster an environment of constant growth and skill development.
-              </p>
-            </div>
+          <div className="glass-card p-8 rounded-lg text-center">
+            <h3 className="text-4xl font-bold text-gradient mb-2">200+</h3>
+            <p className="text-gray-400">Active Members</p>
+          </div>
+          <div className="glass-card p-8 rounded-lg text-center">
+            <h3 className="text-4xl font-bold text-gradient mb-2">50+</h3>
+            <p className="text-gray-400">Projects Completed</p>
+          </div>
+          <div className="glass-card p-8 rounded-lg text-center">
+            <h3 className="text-4xl font-bold text-gradient mb-2">20+</h3>
+            <p className="text-gray-400">Startups Supported</p>
           </div>
         </motion.section>
 
-        {/* Impact Section */}
+        {/* Initiatives Section */}
         <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mb-20"
         >
-          <h2 className="text-3xl font-bold text-center mb-12">Our Impact</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Our Key Initiatives</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="glass-card p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4 text-gradient">No-Code Foundry</h3>
+              <p className="text-gray-400">
+                Collaborating with industry partners to build MVPs and innovative solutions using no-code tools. 
+                Offering internship opportunities and real-world project experience.
+              </p>
+            </div>
+            <div className="glass-card p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4 text-gradient">Freelancer Beehive</h3>
+              <p className="text-gray-400">
+                Fostering a freelancing culture at IITM by connecting students with industry projects 
+                and providing guidance on freelancing opportunities.
+              </p>
+            </div>
+            <div className="glass-card p-6 rounded-lg">
+              <h3 className="text-xl font-semibold mb-4 text-gradient">No-Code Camps</h3>
+              <p className="text-gray-400">
+                Comprehensive training programs covering product development, analytics, and business skills 
+                using no-code tools.
+              </p>
+            </div>
+          </div>
+        </motion.section>
+
+        {/* Vision Section */}
+        <motion.section 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
+          className="mb-20"
+        >
           <div className="glass-card p-8 rounded-lg">
+            <h2 className="text-3xl font-bold mb-8 text-center">Our Vision</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-2xl font-semibold mb-6">Empowering Students</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-gradient">What We Do</h3>
                 <ul className="space-y-4 text-gray-400">
-                  <li>✓ 200+ Active Members Trained</li>
-                  <li>✓ 50+ Projects Successfully Completed</li>
-                  <li>✓ 20+ Startups Supported</li>
-                  <li>✓ Multiple Industry Collaborations</li>
+                  <li>✦ Build MVPs for startups and businesses</li>
+                  <li>✦ Train students in no-code development</li>
+                  <li>✦ Connect students with industry projects</li>
+                  <li>✦ Foster innovation and entrepreneurship</li>
                 </ul>
               </div>
               <div>
-                <h3 className="text-2xl font-semibold mb-6">Future Goals</h3>
+                <h3 className="text-2xl font-semibold mb-6 text-gradient">Future Goals</h3>
                 <ul className="space-y-4 text-gray-400">
-                  <li>→ Expand No-Code Foundry Reach</li>
-                  <li>→ Launch Advanced Training Programs</li>
-                  <li>→ Establish Industry Partnerships</li>
-                  <li>→ Create Global No-Code Community</li>
+                  <li>→ Expand industry partnerships</li>
+                  <li>→ Launch advanced training programs</li>
+                  <li>→ Create a global no-code community</li>
+                  <li>→ Establish freelancing networks</li>
                 </ul>
               </div>
             </div>
           </div>
         </motion.section>
 
-        {/* Join Us Section */}
+        {/* Join Section */}
         <motion.section 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.6 }}
+          transition={{ duration: 0.5, delay: 0.8 }}
           className="text-center"
         >
-          <h2 className="text-3xl font-bold mb-6">Join Our Journey</h2>
+          <h2 className="text-3xl font-bold mb-6">Join Our Community</h2>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Be part of a community that's reshaping the future of product development. 
-            Whether you're a beginner or an experienced builder, there's a place for you here.
+            Whether you're a beginner or an experienced builder, there's a place for you here. 
+            Join us in revolutionizing product development through no-code solutions.
           </p>
-          <Button size="lg" className="text-lg">
-            Join No-Code Club
+          <Button size="lg" className="text-lg px-8">
+            Become a Member
           </Button>
         </motion.section>
       </div>
