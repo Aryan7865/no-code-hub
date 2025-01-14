@@ -12,7 +12,7 @@ const Index = () => {
               Empowering Innovation <br />
               <span className="text-gradient">Without Code</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto">
               Build, Learn, and Transform Ideas into Reality with No-Code Tools
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -33,49 +33,49 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
               We democratize innovation by teaching and utilizing no-code tools for product development
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="p-6 bg-white rounded-lg shadow-sm border">
-              <h3 className="text-xl font-semibold mb-2">200+</h3>
-              <p className="text-gray-600">Active Members</p>
+            <div className="glass-card p-6 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-2 text-gradient">200+</h3>
+              <p className="text-gray-400">Active Members</p>
             </div>
-            <div className="p-6 bg-white rounded-lg shadow-sm border">
-              <h3 className="text-xl font-semibold mb-2">50+</h3>
-              <p className="text-gray-600">Projects Completed</p>
+            <div className="glass-card p-6 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-2 text-gradient">50+</h3>
+              <p className="text-gray-400">Projects Completed</p>
             </div>
-            <div className="p-6 bg-white rounded-lg shadow-sm border">
-              <h3 className="text-xl font-semibold mb-2">20+</h3>
-              <p className="text-gray-600">Startups Helped</p>
+            <div className="glass-card p-6 rounded-lg">
+              <h3 className="text-2xl font-semibold mb-2 text-gradient">20+</h3>
+              <p className="text-gray-400">Startups Helped</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Highlights Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-secondary/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Initiatives</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
               Discover how we're making no-code development accessible to everyone
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-8 bg-white rounded-lg shadow-sm border">
+            <div className="glass-card p-8 rounded-lg hover:scale-105 transition-transform duration-300">
               <h3 className="text-2xl font-semibold mb-4">No-Code Foundry</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-400 mb-6">
                 Help startups build MVPs using no-code tools. We've assisted 6 startups in the last year alone.
               </p>
               <Button variant="outline">Learn More</Button>
             </div>
-            <div className="p-8 bg-white rounded-lg shadow-sm border">
+            <div className="glass-card p-8 rounded-lg hover:scale-105 transition-transform duration-300">
               <h3 className="text-2xl font-semibold mb-4">Freelancer Beehive</h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-400 mb-6">
                 Introducing a freelancing culture at IITM with guidance and alumni collaboration.
               </p>
               <Button variant="outline">Learn More</Button>
